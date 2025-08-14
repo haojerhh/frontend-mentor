@@ -9,8 +9,3 @@
   --text-xl: 19px;
   --text-sm: 13px;
 }
-:root {
-  --height-center: 100vh;
-  --size-container-w: 275px;
-  --size-container-h: 430px;
-}

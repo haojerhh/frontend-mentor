@@ -1,34 +1,16 @@
-body {
-  font-family: "Outfit", sans-serif;
-  text-align: center;
-  background-color: hsl(212, 45%, 89%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
+@import "tailwindcss";
 
-.container {
-  width: 265px;
-  height: 440px;
-  background-color: white;
-  padding: 15px;
-  border-radius: 18px;
-  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.11);
+@theme {
+  --font-display: "Outfit", sans-serif;
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+  --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.11);
+  --text-xl: 19px;
+  --text-sm: 13px;
 }
-
-.qr-image {
-  width: 265px;
-  height: 265px;
-  border-radius: 10px;
-}
-
-.qr-text h1 {
-  font-size: 22px;
-  color: hsl(218, 44%, 22%);
-}
-
-.qr-text p {
-  font-size: 15px;
-  color: hsl(216, 15%, 48%);
+:root {
+  --height-center: 100vh;
+  --size-container-w: 275px;
+  --size-container-h: 430px;
 }

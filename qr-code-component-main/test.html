@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | QR code component</title>
+  </head>
+
+  <body>
+    <style>
+      .columns {
+        column-count: 3; /* 3 columns layout */
+        column-gap: 20px;
+      }
+      .break {
+        break-after: column; /* force next content to start in next column */
+      }
+    </style>
+
+    <div class="columns">
+      <p>Item 1</p>
+      <p>Item 2</p>
+      <p class="break">Item 3</p>
+      <p>Item 4</p>
+      <p>Item 5</p>
+      <p>Item 6</p>
+    </div>
+  </body>
+</html>

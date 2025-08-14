@@ -6,6 +6,6 @@
   --color-slate-500: hsl(216, 15%, 48%);
   --color-slate-900: hsl(218, 44%, 22%);
   --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.11);
-  --text-xl: 19px;
-  --text-sm: 13px;
+  --text-xl: 22px;
+  --text-sm: 15px;
 }

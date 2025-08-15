@@ -8,4 +8,7 @@
   --shadow-md: 0 10px 20px rgba(0, 0, 0, 0.11);
   --text-xl: 22px;
   --text-sm: 15px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
 }

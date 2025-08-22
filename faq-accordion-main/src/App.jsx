@@ -4,6 +4,7 @@ import desktopBackground from "../assets/images/background-pattern-desktop.svg";
 import mobileBackground from "../assets/images/background-pattern-mobile.svg";
 import minusIcon from "../assets/images/icon-minus.svg";
 import plusIcon from "../assets/images/icon-plus.svg";
+import starIcon from "../assets/images/icon-star.svg";
 
 function Background() {
   return (
@@ -26,7 +27,7 @@ function Background() {
 function Heading() {
   return (
     <div className="flex flex-row gap-6 items-center">
-      <img className="w-8 h-8 sm:h-10 sm:w-10" src="../assets/images/icon-star.svg" alt="Star Icon" />
+      <img className="w-8 h-8 sm:h-10 sm:w-10" src={starIcon} alt="Star Icon" />
       <h1 className="text-4xl sm:text-5xl font-bold"> FAQs </h1>
     </div>
   );

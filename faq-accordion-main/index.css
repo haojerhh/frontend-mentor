@@ -3,9 +3,9 @@
 @theme {
     --font-display: "Work Sans", sans-serif;
     --white: hsl(0, 100%, 100%);
-    --purple-100: hsl(275, 100%, 97%);
-    --purple-600: hsl(292, 16%, 49%);
-    --purple-900: hsl(292, 42%, 14%);
+    --color-purple-100: hsl(275, 100%, 97%);
+    --color-purple-600: hsl(292, 16%, 49%);
+    --color-purple-900: hsl(292, 42%, 14%);
     --breapoint-sm: 375px;
     --text-md: 17px;
     --animate-fade-in: fade-in 0.3s ease-in;

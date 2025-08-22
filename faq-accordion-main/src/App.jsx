@@ -33,8 +33,8 @@ function Heading() {
   );
 }
 
-function Section({ children, needBorder = true, text = "Default" }) {
-  const [toggle, setToggle] = useState(false);
+function Section({ children, needBorder = true, open=false, text = "Default" }) {
+  const [toggle, setToggle] = useState(open);
   const border = "pb-6 border-b-2 border-purple-100";
 
   return (
@@ -62,7 +62,7 @@ export default function App() {
         <div className="flex flex-col gap-8 sm:gap-10 bg-white shadow-lg rounded-lg sm:rounded-xl p-8 sm:p-10 max-w-93 sm:max-w-150">
           <Heading />
           <div className="flex flex-col gap-6">
-            <Section text={helpText}>What is Frontend Mentor, and how will it help me?</Section>
+            <Section open={true} text={helpText}>What is Frontend Mentor, and how will it help me?</Section>
             <Section>is Frontend Mentor free?</Section>
             <Section>
               Can I use Frontend Mentor projects in my portfolio?

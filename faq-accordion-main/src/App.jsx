@@ -33,7 +33,7 @@ function Heading() {
   );
 }
 
-function Section({ children, needBorder = true, open=false, text = "Default" }) {
+function Section({ children, needBorder=true, open=false, text="Default" }) {
   const [toggle, setToggle] = useState(open);
   const border = "pb-6 border-b-2 border-purple-100";
 

@@ -11,5 +11,8 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-  base: '/frontend-mentor/'
+  base: '/frontend-mentor/',
+  build: {
+    outDir: 'docs'
+  }
 });

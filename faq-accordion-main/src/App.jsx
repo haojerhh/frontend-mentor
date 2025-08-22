@@ -1,18 +1,22 @@
 import { useState } from "react";
 import { helpText } from "./Constants";
+import desktopBackground from "../assets/images/background-pattern-desktop.svg";
+import mobileBackground from "../assets/images/background-pattern-mobile.svg";
+import minusIcon from "../assets/images/icon-minus.svg";
+import plusIcon from "../assets/images/icon-plus.svg";
 
 function Background() {
   return (
     <>
       <img
         className="absolute w-full object-cover hidden sm:block"
-        src="../assets/images/background-pattern-desktop.svg"
+        src={desktopBackground}
         alt="Purple Background"
       />
 
       <img
         className="absolute w-full object-cover block sm:hidden"
-        src="../assets/images/background-pattern-mobile.svg"
+        src={mobileBackground}
         alt="Purple Background"
       />
     </>
@@ -39,7 +43,7 @@ function Section({ children, needBorder = true, text = "Default" }) {
           {children}
         </h2>
         <img 
-          src={toggle? "../assets/images/icon-minus.svg": "../assets/images/icon-plus.svg"}
+          src={toggle? minusIcon: plusIcon}
           alt={`${toggle? "Minus": "Plus"} Icon`}
           onClick={() => setToggle(!toggle)}
         />
